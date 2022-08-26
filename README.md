@@ -23,4 +23,4 @@ Usage Guide:
         .Actual 500*10: original labels
         .Predicted 500*10: Predicted labels
         .Logits0/Logits1: probability predicted as lable=1 is 1./(1+exp(Logits0(1,:)-Logits1(1,:)))
-        .P_Vote : Accuray, fscore, gmean, sensitivity and specicicity  
+        .P_Vote : Accuray, fscore, gmean, sensitivity and specificity  
