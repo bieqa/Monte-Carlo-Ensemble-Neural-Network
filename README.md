@@ -1,17 +1,22 @@
-# Monte-Carlo-Ensemble-Neural-Network
+# Monte-Carlo-Ensemble-Neural-Network (MCENN)
 Software:
         Python 3.7.3
         Tensorflow 1.13.1
 
 Usage Guide:
 
-1) Extract features from 2D image by ResNet
+This package include the MCENN code and 10 datasets for testing.
+
+1) Download all the zip files and extract all. 
+
+2) Extract features from 2D image by ResNet50.
+
         #ResNet/MCENN_demo_eval_transfer.py
                 Input data: 
                         2D images data/MCENN_demo_ADNI_2Ddata
                 Output data:
                         data/MCENN_demo_renset_result_test.mat
-2) MCENN classification
+3) MCENN classification
         #MCENN/MCENN_demo_eval.py
                 Input data:
                         data/MCENN_demo_renset_result_test.mat
