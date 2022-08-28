@@ -17,12 +17,14 @@ This package include the MCENN code and 10 datasets for testing.
                 Output data:
                         data/MCENN_demo_renset_result_test.mat
 3) MCENN classification
+
         #MCENN/MCENN_demo_eval.py
                 Input data:
                         data/MCENN_demo_renset_result_test.mat
                 Output data:
                         results/MCENN_demo_cn_ad_r0_SP4_FP1_.mat
-3) results format  
+4) results format  
+
         MCENN_demo_cn_ad_r0_SP4_FP1_.mat 
                 500(100 times dropout, 5 trained models)*10(subjects)
         .Actual 500*10: original labels
